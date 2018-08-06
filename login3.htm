@@ -1,0 +1,63 @@
+<html>
+<head>
+    <title>
+        Login Page
+    </title>
+	<style>
+	body{
+	text-align:center;
+	padding:5px;
+	font-size:18px;
+	
+	color:white;
+	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('1.jpeg');
+    height: 80%;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size:100% 100vh;
+	background-attachment:fixed;
+	}
+	ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: sienna;
+}
+ul.breadcrumb li {
+    display: inline;
+	font-size: 18px;
+	
+	text-align: left;
+}
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+ul.breadcrumb li a {
+    color: #0275d8;
+	text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+}
+	</style>
+	
+</head>
+<!-- <body style="background-color: aqua">-->
+<body>
+		<ul class="breadcrumb">
+				<li><a href="#">Home</a></li>
+				<li>Login</li>
+			  </ul>
+
+<h1>LOGIN PAGE</h1>
+
+	Username: <input type="username" name="username" id="username"><br><br>
+	Password: <input type="password" name="password" id="password"><br><br>
+	<input type="submit" name="submit" value="Login">
+	
+</body>
+</html>
+
+
